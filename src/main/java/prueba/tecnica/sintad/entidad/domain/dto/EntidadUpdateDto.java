@@ -1,0 +1,18 @@
+package prueba.tecnica.sintad.entidad.domain.dto;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class EntidadUpdateDto {
+    private int idEntidad;
+    private int idTipoDocumento;
+    private String nroDocumento;
+    private String razonSocial;
+    private String nombreComercial;
+    private int idTipoContribuyente;
+    private String direccion;
+    private String telefono;
+    private int estado;
+}
